@@ -1,0 +1,220 @@
+:root{
+ --primary-text-color:#757575;
+ --primary-background-color:#FFFFFF;
+ --primery-hover-color:#2196F3;
+ --primery-title-color: #212121;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-text-color);
+    font-size: 16px;
+    font-weight:400;
+    background-color: var(--primary-background-color);
+}
+a {
+    color:inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+.header .logo {
+font-family: 'Raleway' sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+color: #000000;
+}
+.header .logo span{
+    color: #2196F3;
+}
+.navigation li a { 
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--primery-title-color);
+}
+.navigation li a:hover,
+.navigation li a:focus {  
+    color: var(--primery-hover-color);
+ }
+
+ .header-contacts li a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;;
+ }
+ .header-contacts li a:hover,
+ .header-contacts li a:focus {
+    color: var(--primery-hover-color);
+ }
+ .navigation .curent{
+    color: var(--primery-hover-color);
+ }
+ .section.hero-section {
+    background-color:#2F303A ;
+ }
+.hero-title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.37;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--primary-background-color);
+}
+
+.hero_button {
+    background: var(--primery-hover-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color:var(--primary-background-color);
+
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188ce8;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
+.benefits-item h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:var(--primery-title-color);
+}
+.benefits-item p {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+}
+
+.about-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primery-title-color);
+}
+.section.section-team{
+    background-color: #F5F4FA;
+}
+.team-title{
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primery-title-color);
+} 
+.team-item {
+    background-color: var(--primary-background-color);
+}
+.team-title {
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--primery-title-color);
+}
+.team-description {
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+}
+.footer{
+    background-color: #2F303A;
+}
+.footer-logo {
+    font-family: 'Raleway';
+
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
+color:var(--primary-background-color);
+}
+.footer-logo span {
+    color: var(--primery-hover-color);
+}
+.name-address {
+    font-style: normal;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+
+color: var(--primary-background-color);
+}
+.footer-mail, .footer-phone {
+font-weight: 400;
+font-style: normal;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+.footer-mail:hover,
+ .footer-phone:hover,
+ .footer-mail:focus,
+ .footer-phone:focus {
+    color: var(--primery-hover-color);
+ }
+
+ .porfolio-button {
+    background: #F5F4FA;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primery-title-color);
+ }
+ .porfolio-button:hover,
+ .porfolio-button:focus{
+    background-color: var(--primery-hover-color);
+    color: var(--primary-background-color);
+ }
+
+ .card-title{
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--primery-title-color);
+ }
+ .card-description {
+font-size: 16px;
+line-height: 1.8;
+letter-spacing: 0.03em;
+
+
+ }
