@@ -33,6 +33,7 @@ li {
 }
 .container {
   max-width: 1200px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 .header .logo {
@@ -92,6 +93,16 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primary-background-color);
+  max-width: 696px;
+  margin: 0 auto 30px;
+}
+.container-box {
+  text-align: center;
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .hero_button {
@@ -230,8 +241,11 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primery-title-color);
-  width: 125px;
-  height: 38px;
+  padding: 6px 22px;
+  border-radius: 4px;
+}
+.item-name {
+  padding: 20px 24px;
 }
 .porfolio-button:hover,
 .porfolio-button:focus {
@@ -271,14 +285,17 @@ ul.header-contacts {
   display: flex;
   gap: 50px;
 }
-li.navigation-menu-item,
-a {
-  padding-top: 30px;
-  padding-bottom: 30px;
+a.footer-logo {
+  margin-bottom: 20px;
 }
-.container-box {
-  padding: 200px 200px 280px 200px;
-  text-align: center;
+li.navigation-menu-item {
+  margin: 32px 0;
+}
+header.header {
+  border-bottom: 1px solid #ececec;
+}
+section.section.hero-section {
+  padding: 200px 0;
 }
 h1.hero-title {
   margin-bottom: 30px;
@@ -312,12 +329,11 @@ h2.team-title {
 h2.team-title {
   margin-bottom: 50px;
 }
-h4.team-title {
-  padding-top: 30px;
-  padding-bottom: 10px;
+h3.team-title {
+  margin-bottom: 10px;
 }
-p.team-description {
-  padding-bottom: 30px;
+.name-team {
+  padding: 30px;
 }
 section.section-visually {
   padding: 94px 0px 0px 0px;
@@ -326,13 +342,11 @@ section.section-about,
 section.section.section-team {
   padding: 94px 0px 94px 0px;
 }
-
 a.footer-logo {
-  padding-top: 60px;
   display: block;
 }
 footer.footer {
-  padding-bottom: 60px;
+  padding: 60px 0;
 }
 ul.portfolio-buttons {
   display: flex;
@@ -351,14 +365,9 @@ section.section-portfolio {
 }
 li.item_portfolios {
   background: #ffffff;
+  width: 370px;
   border: 1px solid #eeeeee;
 }
 h2.card-title {
-  margin-left: 24px;
-  margin-top: 20px;
-}
-
-p.card-description {
-  margin-left: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 4px;
 }
